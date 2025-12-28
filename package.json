@@ -36,7 +36,25 @@
       "Waveforms",
       "Beat sync",
       "Effects"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/rekordbox"
+    },
+    "featured": false,
+    "tags": [
+      "utility",
+      "rekordbox"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/rekordbox/issues",
+    "changelog": "https://github.com/zos-apps/rekordbox/releases"
   },
   "scripts": {
     "build": "tsup",

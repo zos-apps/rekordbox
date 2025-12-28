@@ -1,55 +1,75 @@
-# 🎧 Rekordbox
+# Rekordbox
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/rekordbox/releases)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/rekordbox)
+🎧 DJ software for music management and performance.
 
-> DJ performance and music management
+[![CI](https://github.com/zos-apps/rekordbox/actions/workflows/ci.yml/badge.svg)](https://github.com/zos-apps/rekordbox/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@zos-apps/rekordbox.svg)](https://www.npmjs.com/package/@zos-apps/rekordbox)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**[Documentation](https://zos-apps.github.io/rekordbox)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
+## About
 
-## Installation
-
-```bash
-npm install github:zos-apps/rekordbox
-```
-
-Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
-
-## Usage
-
-```tsx
-import Rekordbox from '@zos-apps/rekordbox';
-
-function App() {
-  return <Rekordbox />;
-}
-```
+DJ software for music management and performance.
 
 ## Features
 
-- Native zOS window integration
-- Dark mode support
+- Track analysis
+- Playlists
+- Waveforms
+- Beat sync
+- Effects
 
-- Context menu actions
-- Menu bar integration
+## Installation
 
-## Category
+### From App Store
+Open the **App Store** in zOS and search for "Rekordbox".
 
-**Audio**
+### Via npm
+```bash
+npm install @zos-apps/rekordbox
+```
 
-## Permissions
+## Usage
 
-- `audio`
-- `storage.local`
+- Import tracks
+- Analyze BPM
+- Create DJ playlists
 
-## Links
 
-- [Documentation](https://zos-apps.github.io/rekordbox)
-- [GitHub Repository](https://github.com/zos-apps/rekordbox)
-- [Report Issues](https://github.com/zos-apps/rekordbox/issues)
-- [All zOS Apps](https://github.com/zos-apps)
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Documentation
+
+- [User Guide](https://zos-apps.github.io/rekordbox)
+- [API Reference](https://zos-apps.github.io/rekordbox/api)
+- [Changelog](https://github.com/zos-apps/rekordbox/releases)
+
+## Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](https://github.com/zos-apps/rekordbox/blob/main/CONTRIBUTING.md) first.
 
 ## License
 
 MIT © [Hanzo AI](https://hanzo.ai)
+
+---
+
+<p align="center">
+  <a href="https://hanzo.ai">
+    <img src="https://hanzo.ai/logo.svg" alt="Hanzo AI" width="100">
+  </a>
+</p>
+<p align="center">
+  Built with ❤️ by <a href="https://hanzo.ai">Hanzo AI</a>
+</p>

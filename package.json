@@ -21,7 +21,22 @@
         "height": 800
       },
       "resizable": true
-    }
+    },
+    "about": "DJ software for music management and performance.",
+    "help": [
+      "Import tracks",
+      "Analyze BPM",
+      "Create DJ playlists"
+    ],
+    "docs": "https://zos-apps.github.io/rekordbox",
+    "site": "https://github.com/zos-apps/rekordbox",
+    "features": [
+      "Track analysis",
+      "Playlists",
+      "Waveforms",
+      "Beat sync",
+      "Effects"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -54,5 +69,13 @@
     "rekordbox",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 interface RekordboxProps {
   onClose: () => void;
@@ -30,7 +30,7 @@ const mockTracks: Track[] = [
   { id: '5', title: 'Scary Monsters', artist: 'Skrillex', bpm: 140, key: '2A', duration: '5:02', genre: 'Dubstep' },
 ];
 
-const Rekordbox: React.FC<RekordboxProps> = ({ onClose }) => {
+const Rekordbox: React.FC<RekordboxProps> = ({ onClose: _onClose }) => {
   const [tracks] = useState(mockTracks);
   const [deckA, setDeckA] = useState<Deck>({ id: 'A', track: mockTracks[0], playing: true, bpm: 105, position: 45 });
   const [deckB, setDeckB] = useState<Deck>({ id: 'B', track: mockTracks[1], playing: false, bpm: 128, position: 0 });
